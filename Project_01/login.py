@@ -1,4 +1,8 @@
-def demo(a):
-    print('helloWorld %s'%a)
+def main():
+    def demo(a):
+        print('helloWorld %s'%a)
 
-demo('python')
+    demo('python')
+
+if __name__ == '__main__':
+    main()
